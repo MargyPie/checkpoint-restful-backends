@@ -1,0 +1,54 @@
+ul {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.person {
+  border: 2px solid lightgray;
+  margin: 1rem;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-family: "Baloo Paaji 2";
+  font: 700 0.9rem "Roboto Slab", sans-serif;
+}
+
+.delBtn {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.3rem 0.4rem;
+  border-radius: 1rem;
+}
+
+.img {
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.back {
+  /* Todo: height */
+
+  background-size: 50% 100%;
+}
+
+.mutual-connections::before {
+  content: "♾️ ";
+}
+
+.connectBtn {
+  color: #22a7f0;
+  font-size: large;
+  background: none;
+  padding: 0.5rem 5rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  border-color: #22a7f0;
+}
